@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="screenshots/CryptoLab.png" alt="CryptoLab" width="400">
+  <img src="screenshots/CryptoLabLogo.png" alt="CryptoLab" width="400">
 </div>
 
 # CryptoLab: A Comprehensive Cryptographic Tool #
