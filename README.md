@@ -1,3 +1,4 @@
+![CryptoLab](screenshots/CryptoLab.png)
 # CryptoLab: A Comprehensive Cryptographic Tool #
 ## Overview ##
 <p>CryptoLab is an interactive cryptographic toolkit designed to offer a hands-on learning experience for exploring various classical and modern encryption techniques. The application provides an intuitive graphical user interface (GUI) built using Python's Tkinter library, allowing users to experiment with a wide range of encryption methods in a visual and easy-to-understand manner.</p>
@@ -92,7 +93,7 @@ python cryptolab.py
 ```
 
 ## Usage ##
-<p>To use the application, run using the commands above. Then select the tab of the algorithm that you would like to use from the tabs on top of the window. Enter your key and message to encrypt or decrypt the message. The copy button allows you to copy the output of the encryption of decryption.</p>
+<p>To use the application, run using the commands above. Then, select the tab of the algorithm that you would like to use from the tabs on top of the window. Enter your key and message to encrypt or decrypt the message. The copy button allows you to copy the output of the encryption or decryption.</p>
 
 ![CryptoLab Tabs](screenshots/Tabs.png)
 
