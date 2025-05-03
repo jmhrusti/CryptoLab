@@ -91,6 +91,11 @@ pip install -r requirements.txt
 python cryptolab.py
 ```
 
+## Usage ##
+<p>To use the application, run using the commands above. Then select the tab of the algorithm that you would like to use from the tabs on top of the window. Enter your key and message to encrypt or decrypt the message. The copy button allows you to copy the output of the encryption of decryption.</p>
+
+![CryptoLab Tabs](screenshots/Tabs.png)
+
 ## Contact ##
 
 <p> If you have questions, comments, or concerns about this code, please reach out to jmhrustich@proton.me.
