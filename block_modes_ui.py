@@ -11,42 +11,47 @@ def load_tab(frame):
     content_frame = ttk.Frame(frame)
     content_frame.grid(row=0, column=0, sticky="nsew", padx=20, pady=20)
 
-    # Set column and row configuration for centering content
+    # Configure resizing behavior
+    frame.grid_rowconfigure(0, weight=1)
+    frame.grid_columnconfigure(0, weight=1)
     content_frame.grid_columnconfigure(0, weight=1, uniform="equal")
-    content_frame.grid_rowconfigure(0, weight=1)
+
+    # Title
+    title_label = ttk.Label(content_frame, text="AES Block Modes Encryption", font=("Helvetica", 16, "bold"))
+    title_label.grid(row=0, column=0, pady=(0, 15))
     
     # AES Modes dropdown options
     aes_modes = ["ECB", "CBC", "CTR"]  # AES block modes
 
     # Label for the AES mode dropdown
     mode_label = ttk.Label(content_frame, text="Select AES Block Mode:")
-    mode_label.grid(row=0, column=0, pady=(5, 2))  
+    mode_label.grid(row=1, column=0, pady=(5, 2))  
     mode_dropdown = ttk.Combobox(content_frame, values=aes_modes, width=28)
-    mode_dropdown.grid(row=1, column=0, pady=10)
+    mode_dropdown.grid(row=2, column=0, pady=(0,10))
     mode_dropdown.set(aes_modes[0])  # Default to ECB mode
     selected_mode = mode_dropdown.get()
 
     # Label for the numerical key
     label = ttk.Label(content_frame, text="Enter 16 character AES key value:")
-    label.grid(row=2, column=0, pady=(5, 2))  # Reduced the vertical padding here
+    label.grid(row=3, column=0, pady=(5, 2))  # Reduced the vertical padding here
     key_input = ttk.Entry(content_frame, width=30)
-    key_input.grid(row=3, column=0, pady=10)
+    key_input.grid(row=4, column=0, pady=(0,10))
     
     #In for IV or nonce
     label = ttk.Label(content_frame, text="Enter your IV or nonce value:")
-    label.grid(row=4, column=0, pady=(5, 2))  # Reduced the vertical padding here
+    label.grid(row=5, column=0, pady=(5, 2))  # Reduced the vertical padding here
     iv_input = ttk.Entry(content_frame, width=30)
-    iv_input.grid(row=5, column=0, pady=10)
+    iv_input.grid(row=6, column=0, pady=(0,10))
 
     # Label and Text input for the message
     label2 = ttk.Label(content_frame, text="Enter message:")
-    label2.grid(row=6, column=0, pady=(10, 5))  # Reduced the vertical padding here
+    label2.grid(row=7, column=0, pady=(10, 5))  # Reduced the vertical padding here
     message_input = tk.Text(content_frame, height=10, width=30)
-    message_input.grid(row=7, column=0, pady=10)
+    message_input.grid(row=8, column=0, pady=10)
 
     # Create a frame to hold the buttons and center them
     button_frame = ttk.Frame(content_frame)
-    button_frame.grid(row=8, column=0, pady=20)
+    button_frame.grid(row=9, column=0, pady=20)
 
     result = []
 
@@ -64,7 +69,7 @@ def load_tab(frame):
 
     # Output label (to display any feedback or action results)
     output_label = ttk.Label(content_frame, text="Results will be shown here", wraplength=200)
-    output_label.grid(row=9, column=0, pady=10)
+    output_label.grid(row=10, column=0, pady=10)
 
     # Ensure that the content frame resizes properly when the tab is resized
     frame.grid_rowconfigure(0, weight=1)
