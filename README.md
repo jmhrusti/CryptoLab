@@ -106,6 +106,6 @@ python cryptolab.py
 
 ## About ##
 
-<p align="center"> This project was developed by Computer Science and Cybersecurity students John Hrustich, Christopher Rawlins, and Kate Vaughan at Utica University.</p>
+<p align="center"> This project was developed by Computer Science and Cybersecurity students <a href="https://www.linkedin.com/in/hrustich/">John Hrustich</a>, <a href="https://www.linkedin.com/in/christopher-rawlins-918809243/">Christopher Rawlins</a>, and <a href="https://www.linkedin.com/in/kate-vaughan-8307272a3/">Kate Vaughan</a> at <a href="https://utica.edu">Utica University</a>.</p>
 <p align="center"> Created as a part of CSC 432 - Computer and Network Security | Spring 2025</p>
 <p align="center"> Copyright 2025.</p>
