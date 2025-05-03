@@ -80,6 +80,7 @@
 - Message requirements: Must be letters only.
 
 ## Installation ##
+Requires <a href="https://www.python.org/downloads/">Python3</a> and <a href="https://git-scm.com/downloads">git</a> to be preinstalled on system. Once this is done follow the following instructions to install our app:
 
 ```
 # Clone the repository
