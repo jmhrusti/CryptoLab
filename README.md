@@ -79,7 +79,7 @@
 
 ```
 # Clone the repository
-git clone https://github.com/yourusername/CryptoLab.git
+git clone https://github.com/jmhrusti/CryptoLab.git
 
 # Navigate into the project folder
 cd CryptoLab
