@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="screenshots/CryptoLab.png" alt="CryptoLab" width="500">
+  <img src="screenshots/CryptoLab.png" alt="CryptoLab" width="400">
 </div>
+
 # CryptoLab: A Comprehensive Cryptographic Tool #
 ## Overview ##
 <p>CryptoLab is an interactive cryptographic toolkit designed to offer a hands-on learning experience for exploring various classical and modern encryption techniques. The application provides an intuitive graphical user interface (GUI) built using Python's Tkinter library, allowing users to experiment with a wide range of encryption methods in a visual and easy-to-understand manner.</p>
