@@ -4,13 +4,13 @@
 
 # CryptoLab: A Comprehensive Cryptographic Tool #
 ## Overview ##
-<p>CryptoLab is an interactive cryptographic toolkit designed to offer a hands-on learning experience for exploring various classical and modern encryption techniques. The application provides an intuitive graphical user interface (GUI) built using Python's Tkinter library, allowing users to experiment with a wide range of encryption methods in a visual and easy-to-understand manner.</p>
+<p>CryptoLab is an interactive cryptographic toolkit designed to offer a hands-on learning experience for exploring various classical and modern encryption algorithms. The application provides a user-friendly graphical user interface (GUI) built using Python's Tkinter library, allowing users to experiment with a various encryption methods all in one place.</p>
 
 <p>Whether you're a student, teacher, hobbyist, or cryptography enthusiast, CryptoLab enables you to understand and implement encryption algorithms while demystifying the underlying mathematical principles. This tool is perfect for both learning and teaching cryptography concepts such as modular arithmetic, matrix operations, substitution ciphers, and more.</p>
 
 ## Ciphers and Algorithms ##
 
-<p>CryptoLab integrates a diverse collection of cryptographic algorithms, both classical and modern, that are widely used in encryption and data security. Each algorithm is presented in a separate tab, allowing users to quickly navigate between ciphers and understand their mechanics.</p>
+<p>CryptoLab includes a diverse collection of cryptographic algorithms and ciphers, both classical and modern, that are widely used in data security. Each algorithm is available in a separate tab, allowing users to easily test and quickly navigate between ciphers and understand their mechanics.</p>
 
 ### AES Block Modes ###
 <p>AES (Advanced Encryption Standard) is a symmetric block cipher used to encrypt data in 128-bit blocks. Block modes like ECB, CBC, and CTR define how these blocks are encrypted and interconnected</p>
