@@ -4,9 +4,9 @@
 
 # CryptoLab: A Comprehensive Cryptographic Tool #
 ## Overview ##
-<p>CryptoLab is an interactive cryptographic toolkit designed to offer a hands-on learning experience for exploring various classical and modern encryption algorithms. The application provides a user-friendly graphical user interface (GUI) built using Python's Tkinter library, allowing users to experiment with a various encryption methods all in one place.</p>
+<p>CryptoLab is an interactive cryptographic toolkit designed with hands-on learning in mind. It allows the user to gain experience by exploring various classical and modern encryption algorithms. The application provides a user-friendly Graphical User Interface (GUI) built using Python's Tkinter library, enabling users to experiment with a various encryption methods in a single application.</p>
 
-<p>Whether you're a student, teacher, hobbyist, or cryptography enthusiast, CryptoLab enables you to understand and implement encryption algorithms while demystifying the underlying mathematical principles. This tool is perfect for both learning and teaching cryptography concepts such as modular arithmetic, matrix operations, substitution ciphers, and more.</p>
+<p>Whether you are a student, teacher, or someone who is curious about cryptography, CryptoLab helps you to understand and try out encryption algorithms, some of which are used in our daily lives. This tool is perfect for both learning and teaching cryptography concepts including monoalphabetic and polyalphabetic ciphers, substitution and transposition ciphers, and modern encryption algorithms. </p>
 
 ## Ciphers and Algorithms ##
 
@@ -40,7 +40,7 @@
 ### Diffie Hellman Key Exchange ###
 <p>A cryptographic protocol that allows two parties to securely share a secret key over an insecure channel. It uses modular arithmetic and the difficulty of the discrete logarithm problem.</p>
 
-### Feister Cipher ###
+### Feistel Cipher ###
 <p>A design model for block ciphers that splits data into two halves and repeatedly applies round functions and swapping. DES is a classic example of a Feistel cipher.</p>
 
 - Key requirements: 128-bit key or 16 characters
